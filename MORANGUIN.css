@@ -1,0 +1,73 @@
+body{
+	background-image: url('https://previews.dropbox.com/p/thumb/AC1VQmC67tvL64I5NxBnInH6zn2kmusvuYAYisk_uFNBU9GkkfTVwzgb-9gskd7uJlQ1C4dYn_knM_rVIAaXZazUCmY6yW0L0R75hVmWAfUgBDoEJgB80SzTnFZS4Q65s9IngmAfWgj2F12MnMBcU1nTxDLUr5ZrY5jVnLRy0m6QlH9sNzBWhbA-jisPszsFoBCBgdNVBw8N3kbaMmnYa2krvAPOU8zkD0TwHq4Y9b5A_LW8IuhNOx-JqNmC137ONnWzlcFlEkwyKTBd7r8oOnfFhlK2KTrzWGX8xA5GX3qLqS64mBZMPnVeMjh6ZqONwEI/p.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+	backdrop-filter: blur(1px);
+    background-attachment: fixed;
+    height: 100;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: multiply;
+    }
+
+
+.gradient-button { 
+    margin: 8px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+}
+.gradient-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 8px 10px;
+}
+.gradient-button-1 {text-decoration: none;background-image: linear-gradient(to right, #AB8000 0%, #E6BD37 51%, #AB8000 100%)}
+.gradient-button-1:hover { background-position: right center; }
+
+.gradient-button-2 { 
+    margin: 8px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+}
+.gradient-button-2:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 8px 10px;
+}
+.gradient-button-2 {text-decoration: none;background-image: linear-gradient(to right, #AB8000 0%, #E6BD37 51%, #AB8000 100%)}
+.gradient-button-2:hover { background-position: right center; }
+
+
+h1{text-shadow: 8px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-emphasis-color: black;
+
+}
+h2{text-shadow: 8px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-emphasis-color: black;
+}
